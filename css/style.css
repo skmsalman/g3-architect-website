@@ -15,7 +15,7 @@ a {
   text-decoration: none;
 }
 .container {
-  width: 1320px;
+  max-width: 82.5rem;
   margin: 0 auto;
 }
 .title_logo {
@@ -34,11 +34,20 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+.primary_button {
+  padding: 1.25rem 1.563rem;
+  border-radius: 0.5rem;
+  background: #ff900e;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
 /* common css end */
 /* start header_area */
 .header_area {
   background: rgba(255, 144, 14, 0.1);
-  padding: 50px 0;
+  padding: 50px 200px;
 }
 .navigation_section {
   margin-bottom: 102px;
@@ -48,7 +57,7 @@ a {
   line-height: 1.625rem;
   font-weight: 500;
   text-transform: capitalize;
-  margin-right: 4.75rem;
+  margin-right: 2rem;
 }
 .navigation_section ul li:last-child {
   margin-right: 0;
@@ -67,18 +76,10 @@ a {
   font-weight: 700;
   margin-bottom: 1.875rem;
 }
-.button button {
-  padding: 21px 25px;
-  border-radius: 0.5rem;
-  background: #ff900e;
-  border: none;
-  font-size: 1.25rem;
-  font-weight: 600;
-  margin-top: 2rem;
-}
 .button button a {
   color: #fff;
 }
+
 .banner_image img {
   width: 100%;
 }
