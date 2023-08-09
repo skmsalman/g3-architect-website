@@ -2,11 +2,23 @@
   .navigation_section {
     margin-bottom: 50px !important;
   }
-  .title_logo {
+  .team_section {
+    gap: 32px !important;
+  }
+  .primary_button {
+    padding: 1.1rem 0.563rem !important;
+  }
+  .navigation_section .title_logo {
     font-size: 1.2rem !important;
+  }
+  .about_team .title_logo {
+    font-size: 2.0007rem !important;
   }
   .header_area {
     padding: 20px !important;
+  }
+  .main_area {
+    padding: 50px 20px 130px !important;
   }
   .banner_content .banner_inner_content .banner_title {
     font-size: 2rem !important;
@@ -25,9 +37,22 @@
   .banner_content .banner_inner_content .banner_title {
     font-size: 2rem !important;
   }
-  .title_logo {
+  .navigation_section .title_logo {
     margin-bottom: 10px;
     font-size: 1.3rem !important;
+  }
+  .main_area {
+    padding: 50px 20px 130px !important;
+  }
+  .about_team {
+    text-align: center;
+  }
+  .about_team .title_logo {
+    font-size: 2.0007rem !important;
+  }
+  .team_section {
+    flex-direction: column !important;
+    gap: 35px !important;
   }
 }
 @media screen and (max-width: 354px) {

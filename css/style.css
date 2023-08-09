@@ -41,7 +41,6 @@ a {
   border: none;
   font-size: 1.25rem;
   font-weight: 600;
-  margin-top: 2rem;
 }
 /* common css end */
 /* start header_area */
@@ -65,6 +64,9 @@ a {
 .navigation_section ul li a {
   color: #424242;
 }
+.banner_section .button {
+  margin-top: 2rem;
+}
 .banner_content {
   max-width: 862px;
   text-align: center;
@@ -80,7 +82,44 @@ a {
   color: #fff;
 }
 
-.banner_image img {
+.banner_image img,
+.team_member img {
   width: 100%;
 }
 /* end header_area */
+/* start main_area */
+.main_area {
+  padding: 85px 100px 130px;
+}
+/* start team_section css */
+.team_section {
+  gap: 79px;
+}
+.team_member {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.about_team {
+  max-width: 537px;
+}
+.about_team h3 {
+  color: #727272;
+  font-weight: 500;
+}
+.of_our {
+  color: #131313;
+  font-weight: 700;
+}
+.feature {
+  color: #ff900e;
+  font-weight: 700;
+}
+
+.team_section .description,
+.team_section .button {
+  margin-top: 24px;
+}
+
+/* end team_section css */
+/* end main_area */
