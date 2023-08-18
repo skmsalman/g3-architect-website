@@ -1,3 +1,63 @@
+@media screen and (max-width: 1300px) {
+  .facts_card {
+    padding: 0 !important;
+  }
+}
+@media screen and (min-width: 777px) and (max-width: 1200px) {
+  .facts_item {
+    margin-right: 14px !important;
+  }
+  .facts_item h3 {
+    font-size: 1.831rem !important;
+  }
+  .facts_item p {
+    font-size: 1.1rem !important;
+  }
+  .facts_item:last-child {
+    margin-right: 0 !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .features_content_heading,
+  .features_item {
+    text-align: center !important;
+  }
+  .features_content_heading h3 {
+    margin: 0 auto;
+    padding-left: 0 !important ;
+  }
+  .facts_card {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 14px;
+  }
+  .facts_inner {
+    display: flex;
+    justify-content: center;
+  }
+
+  .facts_heading {
+    text-align: center !important;
+  }
+  .facts_heading p {
+    margin: 0 auto !important;
+  }
+  .sponsor_section .row {
+    flex-direction: column;
+    gap: 57px;
+  }
+  .sponsor_section {
+    padding: 100px 0 !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .facts_card {
+    grid-template-columns: 1fr !important;
+  }
+  .facts_item {
+    margin-bottom: 14px !important;
+  }
+}
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .navigation_section {
     margin-bottom: 50px !important;
@@ -18,10 +78,22 @@
     padding: 20px !important;
   }
   .main_area {
-    padding: 50px 20px 130px !important;
+    padding: 50px 20px 0px !important;
   }
   .banner_content .banner_inner_content .banner_title {
     font-size: 2rem !important;
+  }
+  .features_section {
+    flex-direction: column-reverse;
+  }
+  .features_content {
+    margin-top: 80px;
+  }
+  .features_img .ten_year_badge {
+    left: -60px;
+  }
+  .features_img img {
+    margin-left: 0 !important;
   }
 }
 @media screen and (max-width: 576px) {
@@ -42,7 +114,7 @@
     font-size: 1.3rem !important;
   }
   .main_area {
-    padding: 50px 20px 130px !important;
+    padding: 50px 20px 0px !important;
   }
   .about_team {
     text-align: center;
@@ -53,10 +125,103 @@
   .team_section {
     flex-direction: column !important;
     gap: 35px !important;
+    margin-bottom: 75px !important;
+  }
+  .features_section {
+    flex-direction: column-reverse;
+  }
+  .features_img img {
+    margin-left: 0 !important;
+  }
+  .features_img .ten_year_badge {
+    left: -60px;
+  }
+  .features_content {
+    margin-top: 80px;
+  }
+  .features_content_heading .title_logo {
+    font-size: 1.6rem !important;
+  }
+  .ten_year_badge {
+    padding: 23px 34px !important;
+    left: -18px !important;
+    bottom: -54px !important;
+  }
+  .ten_year_badge h2 {
+    font-size: 2.06rem !important;
+    font-weight: 600 !important;
+    line-height: 1.4rem !important;
+  }
+  .ten_year_badge p {
+    font-size: 1.1rem !important;
+  }
+  .facts_card {
+    flex-direction: column !important;
+  }
+  .sponsor_content p {
+    width: auto !important;
+  }
+  .sponsor_content .title_logo,
+  .facts_heading h3 {
+    font-size: 1.813rem !important;
   }
 }
+
 @media screen and (max-width: 354px) {
   .navigation_section ul {
     flex-direction: column !important;
+  }
+  .facts_item,
+  .navigation_section ul li {
+    margin-right: 0 !important;
+  }
+  .team_member {
+    grid-template-columns: 1fr !important;
+  }
+}
+@media screen and (max-width: 242px) {
+  .facts_item {
+    width: auto !important;
+  }
+  .facts_item h3 {
+    font-size: 1.3rem !important;
+  }
+  .facts_item p {
+    font-size: 1rem !important;
+  }
+  .footer span {
+    font-size: 16px !important;
+  }
+  .about_team .title_logo,
+  .features_content_heading .title_logo,
+  .sponsor_content .title_logo,
+  .facts_heading h3 {
+    font-size: 1.5rem !important;
+    border-left: none !important;
+  }
+}
+@media screen and (max-width: 220px) {
+  .primary_button {
+    padding: 1.25rem 1.563rem !important;
+    font-size: 1.1rem !important;
+  }
+}
+@media screen and (max-width: 199px) {
+  .sponsor_img {
+    width: auto !important;
+    height: auto !important;
+  }
+  .primary_button {
+    padding: 1.1rem 1.563rem !important;
+    font-size: 1rem !important;
+  }
+  .banner_content .banner_inner_content .banner_title {
+    font-size: 1.1rem !important;
+  }
+  .navigation_section .title_logo {
+    font-size: 1rem !important;
+  }
+  .features_img .ten_year_badge {
+    padding: 11px 29px !important;
   }
 }
